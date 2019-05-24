@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import {Container,Row,} from 'reactstrap';
-import TodoItem from './Input'
-import List from './List'
-import './main.css';
+import TodoItem from './components/Input'
+import List from './components/List'
+import './style/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import uuid from 'uuid'
